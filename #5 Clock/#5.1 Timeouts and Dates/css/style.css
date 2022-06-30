@@ -1,0 +1,4 @@
+.hidden {
+    /* This class hide the element */
+    display: none;
+}
