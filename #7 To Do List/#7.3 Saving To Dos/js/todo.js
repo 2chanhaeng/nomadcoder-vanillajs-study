@@ -25,14 +25,14 @@ function paintToDo(newToDo) {
     button.addEventListener("click", deleteToDo)
     li.appendChild(button);
 
-    toDoList.append(li);
+    toDoList.appendChild(li);
 }
 
 function handleToDoSubmit(event) {
     event.preventDefault();
     const newToDo = toDoInput.value;
     toDoInput.value = "";
-    toDos.append(newToDo);
+    toDos.push(newToDo);
     saveToDos();
     paintToDo(newToDo);
 }

@@ -19,7 +19,7 @@ function paintToDo(newToDo) {
     button.addEventListener("click", deleteToDo)
     li.appendChild(button);
 
-    toDoList.append(li);
+    toDoList.appendChild(li);
 }
 
 function handleToDoSubmit(event) {

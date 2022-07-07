@@ -7,7 +7,7 @@ function paintToDo(newToDo) {
     const span = document.createElement("span");
     span.innerText = newToDo;
     li.appendChild(span);
-    toDoList.append(li);
+    toDoList.appendChild(li);
 }
 
 function handleToDoSubmit(event) {
